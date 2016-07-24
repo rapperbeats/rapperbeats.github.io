@@ -3,10 +3,24 @@
   src: url(../fonts/RIOT.ttf);
 }
 
+html, body {
+  margin:0;
+  padding:0;
+  height: 100%;
+}
+
 .heading {
   font-family: Riot;
   font-size: 38px;
+  color: #484848;
   text-align: center;
   margin-top: 100px;
   padding: 10px;
+}
+
+.sub-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  color: #585858;
+  text-align: center;
 }
